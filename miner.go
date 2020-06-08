@@ -63,6 +63,10 @@ type Job struct {
 	headerPrefix string
 }
 
+func init() {
+	rand.Seed(time.Now().UnixNano())
+}
+
 func (j *Job) RefreshJob() {
 	j.GetNextExtranonce2()
 
