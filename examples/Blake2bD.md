@@ -1,6 +1,6 @@
 ## Qitmeer(PMEER) stratum protocol for Blake2bD
 
-* For other algorithms: visit [examples](https://github.com/leifjacky/qitmeer-gominer-demo/tree/master/examples)
+* For other algorithms: visit [examples](https://github.com/leifjacky/pmeer-gominer-demo/tree/master/examples)
 
 ### mining.subscribe
 
@@ -12,7 +12,7 @@ request:
 {
 	"id": 1,
 	"method": "mining.subscribe",
-	"params": ["qitmeerminer-v1.0.0", null]
+	"params": ["pmeerminer-v1.0.0", null]
 }
 
 response:
