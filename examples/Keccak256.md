@@ -102,7 +102,7 @@ response:
 {
 	"id": 102,
 	"method": "mining.submit",
-	"params": ["TmdGj68KtaKDbCG5yTMmrB9mFKtzAQpBQqq.worker1","26252908","4d658221","5eddb44d","0080f935"]
+	"params": ["TmdGj68KtaKDbCG5yTMmrB9mFKtzAQpBQqq.worker1","26252908","4d658221","5eddb44d","008caeac"]
 }
 
 {"id":102,"result":true,"error":null}    // accepted share response
