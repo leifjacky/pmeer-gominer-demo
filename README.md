@@ -95,7 +95,7 @@ response:
 
 ### mining.submit
 
-- params: [ "username", "jobId", "extranonce2", "ntime", "nonce", "pows" ]
+- params: [ "username", "jobId", "extranonce2", "ntime", "nonce" ]
 - result: true / false
 
 ```json

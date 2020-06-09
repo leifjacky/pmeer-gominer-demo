@@ -33,7 +33,7 @@ response:
 {
 	"id": 1,
 	"result": [
-    [["mining.set_difficulty","0.031250"],["mining.notify","aaaabbbbccccdddd"]],
+    [["mining.set_difficulty","0.0009765625"],["mining.notify","aaaabbbbccccdddd"]],
     "e2a7258d",
     4
   ],
@@ -95,7 +95,7 @@ response:
 
 ### mining.submit
 
-- params: [ "username", "jobId", "extranonce2", "ntime", "nonce", "pows" ]
+- params: [ "username", "jobId", "extranonce2", "ntime", "nonce" ]
 - result: true / false
 
 ```json
