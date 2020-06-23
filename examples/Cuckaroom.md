@@ -115,9 +115,13 @@ headerWithProof = version + prevHash + txRoot + stateRoot + nbits + ntime + nonc
 headerHash = reverseBytes(blake2bD(header)) = 0x04de9687cabff80b0339e29164582462fe41eff873efc3b45dcc23e0c7b694bb  // Big Endian
 
 graphWeight: 1856, headerHashDiff: 97574
-jobDiff: 32768
+jobTarget: 32768
 
-headerHashDiff > jobDiff, valid share
+headerHashDiff > jobTarget, valid share
 ```
+
+>graph weight definition: https://github.com/Qitmeer/qitmeer/blob/9433545f617ef69c6b68a45ba63c0ff7c3345429/core/types/pow/cuckaroom.go#L104
+>
+>cuckoo diff definition: https://github.com/Qitmeer/qitmeer/blob/9433545f617ef69c6b68a45ba63c0ff7c3345429/core/types/pow/diff.go#L194
 
 
