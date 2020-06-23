@@ -115,7 +115,7 @@ headerWithProof = version + prevHash + txRoot + stateRoot + nbits + ntime + nonc
 headerHash = reverseBytes(blake2bD(header)) = 0x00844fc308b3a4499a1c414253047785cfc2d8f0be0dee46629a1b8ee36daf3e  // Big Endian
 
 graphWeight: 48, headerHashDiff: 23775
-jobTarget: 8192
+jobDiff: 8192
 
-headerHashDiff < jobTarget, valid share
+headerHashDiff > jobDiff, valid share
 ```
